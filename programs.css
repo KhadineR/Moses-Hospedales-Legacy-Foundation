@@ -1,0 +1,157 @@
+
+/* PROGRAM CAROUSEL — NEW STYLING */
+
+.program-carousel-wrapper {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.program-section-title {
+    font-size: 42px;
+    color: #05364F;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* Swiper Container */
+.program-swiper {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+/* Slide Card */
+.program-slide-card {
+    background: linear-gradient(
+        145deg,
+        #ffffff 0%,
+        #f7f7f7 50%,
+        #e9eef2 100%
+    );
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    padding: 40px 30px;
+    text-align: left;
+    min-height: 260px;
+    border-left: 6px solid #D4A017;
+    transition: transform .3s ease;
+}
+
+.program-slide-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Headings */
+.program-slide-card h3 {
+    font-size: 24px;
+    color: #05364F;
+    font-weight: bold;
+}
+
+/* Text */
+.program-slide-card p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Swiper navigation arrows */
+.program-nav {
+    color: #05364F !important;
+    font-weight: bold;
+}
+
+.program-nav:hover {
+    color: #D4A017 !important;
+}
+
+/* Pagination bullets */
+.swiper-pagination-bullet {
+    background: #05364F !important;
+    opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+    background: #D4A017 !important;
+    opacity: 1;
+}
+
+/* =============================
+   PROGRAM GRID — BRAND STYLING
+============================== */
+
+.programs-grid-container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.programs-grid-title {
+    text-align: center;
+    font-size: 42px;
+    color: #05364F;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* Grid Layout */
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+}
+
+/* Card */
+.program-card {
+    background: white;
+    border-radius: 22px;
+    padding: 35px 28px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+    transition: 0.35s ease;
+    border: 2px solid transparent;
+}
+
+/* Hover effect */
+.program-card:hover {
+    transform: translateY(-10px);
+    border-color: #D4A017;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.18);
+}
+
+/* Icons */
+.program-icon {
+    font-size: 42px;
+    color: #D4A017;
+    margin-bottom: 14px;
+}
+
+/* Headings */
+.program-card h3 {
+    color: #05364F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Description */
+.program-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* List inside card */
+.program-card ul {
+    margin: 12px 0 0 20px;
+    color: #444;
+}
+
+/* External link (TikTok) */
+.program-link {
+    margin-top: 12px;
+    display: inline-block;
+    color: #D4A017;
+    font-weight: 600;
+}
