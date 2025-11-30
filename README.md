@@ -74,7 +74,3 @@ Performance metrics were gathered using **WebPageTest** to validate the efficien
 * **Heading Hierarchy:** Content structure is logical, using a proper `<h1>` through `<h3>` hierarchy.
 
 ---
-
-## 📄 License
-
-[Specify your license here, e.g., MIT License or All Rights Reserved.]
